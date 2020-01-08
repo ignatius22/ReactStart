@@ -11,7 +11,11 @@ function FetchApi() {
   },[])
   return (
     <div>
-     
+     <ul>
+       {
+          courses.map(course=>(<li key={course.id}>{course.department}</li>))
+       }
+     </ul>
     < h1>fetch data</h1>
  
   
