@@ -1,0 +1,4 @@
+{
+    "main": "loader.js",
+    "description": "A component creating to serve a loader when apis are being eaten"
+}
